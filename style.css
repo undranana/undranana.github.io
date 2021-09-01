@@ -1,11 +1,33 @@
 body {
-  background-color: lightblue;
+	font-family: sans-serif;
+	background-color: lightblue;
+	font-size: smaller;
 }
 h1 {
   color: navy;
-  font-size: 20vw;
+  font-size: 3vw;
+
 }
-h2 {
+h3 {
   color: navy;
-  font-size: 14vw;
+  font-size: 2vw;
+}
+a{
+	color: navy;
+	text-decoration: none;
+}
+a:hover{
+	color: yellow;
+	text-decoration: underline;
+}
+.special{
+	color: yellow;
+	font-weight: bold;
+	font-style: italic;
+}
+.underlined{
+	border-bottom: 2px solid white;
+}
+p:first-child:first-letter{
+	font-size: 300%;
 }
