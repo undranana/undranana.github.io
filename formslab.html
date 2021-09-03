@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>Forms Lab</title>
+		<link rel = "stylesheet" href = "formsLab.css" />
+	</head>
+	<body>
+
+		<fieldset>
+		<legend>New User Signup:</legend>
+			<div class="columnleft">
+				<label>Name</label><br>
+				<label>Gender</label><br>
+				<label>Age</label><br>
+				<label>Personality type</label><br>
+				<label>Favorite OS</label><br>
+				<label>Seeking age</label>
+			</div>
+			<div class="columnright">
+				<input type="text" name="username"/><br>
+				<label><input type="radio" name="gender" value="male"/>Male</label>
+				<label><input type="radio" name="gender" value="female"/>Female</label><br>
+				<input class="agepersonality" type="text" name="age" maxlength="3"/><br>
+				<input class="agepersonality" type="text" name="Personality type"maxlength="6"/>
+				<label id="personality">Don't know your type?</label><br>
+				<select name="os">
+					<option value="Windows">Windows</option>
+					<option value="Linux">Linux</option>
+					<option value="MacOs">MacOs</option>
+				</select><br>
+				<input class="agepersonality" type="text" name="minage" maxlength="3" placeholder="min"/>
+				<label>to</label>
+				<input class="agepersonality" type="text" name="maxage" maxlength="3" placeholder="max"/><br>
+			</div>
+			<input type="submit" value="Sign Up"/>
+		</fieldset>
+	
+	</body>
+</html>

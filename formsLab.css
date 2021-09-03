@@ -1,0 +1,39 @@
+body{
+	width:500px;
+
+}
+fieldset{
+	border-radius: 20px;
+	background-color: #D3D3D3;	
+	font-weight: bold;
+	box-shadow: 3px 5px grey;
+}
+.columnleft {
+	float: left;
+	width: 33%;
+	line-height: 1.8;
+}
+.columnright {
+	float: left;
+	width: 67%;
+	line-height: 1.8;
+}
+.agepersonality{
+	width: 50px;
+}
+#personality{
+	color: red;
+}
+legend{
+	background-color:white;
+	border-style: outset;
+}
+input{
+	border-style: inset;
+}
+input[type="submit"]{
+	color: red;
+	font-weight: bold;
+	font-size: 15pt;
+	border-style: outset;
+}
