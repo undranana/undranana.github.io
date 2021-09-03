@@ -20,7 +20,6 @@ h1{
 }
 div.containerMain{
 	width: 800px;
-	background-color: blue;
 	margin: auto;
 	border-radius: 20px;
 	padding: 20px;
@@ -28,9 +27,22 @@ div.containerMain{
 	color: gray;
 	border-style: solid;
 	padding-right: 0px;
+	padding-left: 0px;
 	padding-top: 0px;
+	height: 1000px;
 	
 }
+.subbannerBackground{
+	background-image:url("./images/rbg.png");
+	background-repeat: repeat;
+	width: 100%;
+	text-align: left;
+	font-size: 20pt;
+	color: red;
+	font-weight: bold;
+	
+}
+
 div.containerRight{
 	float: right;
 	width: 250px;
@@ -38,5 +50,35 @@ div.containerRight{
 	padding: 10pt;
 	font-family: Arial, sans-serif;
 	font-size: 8pt;
-	display: flex;
+}
+dt{
+	font-weight: bold;
+}
+dl{
+	margin-top: 10px;
+}
+ul{
+	list-style-type: none;
+}
+
+div.containerleft{
+
+	font-family: Arial, sans-serif;
+	padding: 10pt;
+}
+div.reviewbox{
+	width:25%;
+	float:left;
+	padding: 16px;
+}
+.review{
+	background-color:#E8DC9B;
+	width:100%;
+	float:left;
+	font-size: 8pt;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: grey;
+	border-style: solid;
+	padding: 8px;
 }
