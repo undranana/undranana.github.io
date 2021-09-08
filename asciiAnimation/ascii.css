@@ -25,8 +25,7 @@ fieldset{
 	
 }
 .animationControls{
-	/**display: float;
-	width: 10%;**/
-	float: left;
+	display: flex;
+	justify-content: center;
 	
 }
