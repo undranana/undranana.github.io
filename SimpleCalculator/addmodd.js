@@ -14,6 +14,9 @@ exports.add = function (req, res, vals) {
     res.write("<p>The Answer is: ");
     res.write(String(ans));
     res.write("</p>");
+    res.write("<form action=\"./indexForAdder.html\">");
+    res.write("<input type=\"submit\" value=\"Another calculation\" />");
+    res.write("</form>");
     res.write("</body>");
     res.write("</html>");
     return res.end();
