@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Number Quiz</title>
+    </head>
+    <body>
+        <form action = "http://localhost:8080/numberQuiz.js">
+            <input type="hidden" id="quiz" name="quiz" value="0">
+            <input type="hidden" id="score" name="score" value="0">
+            <div><h1>The Number Quiz</h1>
+                <p>Your current score is 0.</p>
+                <p>Guess the next number in the sequence.</p>
+                <p id="nums"></p><br/>
+                <label>Your answer: <input id = "answer" name = "answer" type="text"/></label><br/>
+                <input id = "submit" type="submit" value="Submit"/><br/>
+            </div>
+        </form>
+    </body>
+</html>

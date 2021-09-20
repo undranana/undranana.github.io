@@ -1,0 +1,14 @@
+doctype html
+html(lang = 'en')
+    head 
+        title The Number Quiz
+        body 
+        form(action = "http://localhost:8080/numberQuiz.js")
+            input(type="hidden", name="quiz" value= quiz)
+            input(type="hidden", name="score" value= score)
+            h1 The Number Quiz
+            p Your current score is #{score}
+            img(src="https://i.gifer.com/UJr.gif")
+            p You have completed the Number Quiz with score of  #{score} out of #{total}
+            br
+            input(type = "submit"  href = "./index.html", value="Try again")

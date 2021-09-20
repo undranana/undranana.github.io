@@ -1,0 +1,16 @@
+doctype html
+html(lang = 'en')
+    head 
+        title The Number Quiz
+        body 
+        form(action = "http://localhost:8080/numberQuiz.js")
+            input(type="hidden", name="quiz" value= quiz)
+            input(type="hidden", name="score" value=score)
+            h1 The Number Quiz
+            p Your current score is #{score}
+            p Guess the next number in the sequence.
+            p #{nums}
+            label Your answer:  
+            input(name="answer")
+            br
+            input(type="submit", value="Submit")
